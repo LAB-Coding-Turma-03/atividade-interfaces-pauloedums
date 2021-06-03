@@ -19,9 +19,9 @@ public class JavaSpringTemplateApplicationTests {
 	@Test
 	public void shouldHavePJWithInterfacePessoa() {
 		
-		Pessoa pf = new PessoaJuridica("33293439000109", "PJ");	
+		Pessoa pj = new PessoaJuridica("33293439000109", "PJ");	
 		
-		assertEquals("PJ", pf.getTipo());
+		assertEquals("PJ", pj.getTipo());
 		
 	}
 	
